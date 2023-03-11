@@ -26,10 +26,16 @@ public class LamdaExam {
 
         //TO LAMDA
 
+        //Lamda : 익명 메소드
         new Thread(() -> {
             for(int i = 0 ; i < 10 ; i++) {
                 System.out.println(i + "");
             }
-        });
+        }).start();
+
+        //람다식 문법
+        /*
+        *  (매개변수 목록) -> { 실행문 }
+        * */
     }
 }
