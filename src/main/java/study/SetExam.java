@@ -5,7 +5,7 @@ package study;
 *   set 인터페이스를 구현한 클래스인
 *    - HashSet
 *    - TreeSet
-*    - LinkedHashSet 
+*    - LinkedHashSet
 * */
 public class SetExam {
 }
